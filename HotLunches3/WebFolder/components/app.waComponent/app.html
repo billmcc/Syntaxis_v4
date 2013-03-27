@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html><section data-group="[['tabView1','menuBar1','container1','container2']]" class="default">
+    <meta name="generator" content="Wakanda GUIDesigner"/>
+    <meta name="WAF.config.datasources" data-type="dataSource" data-source-type="dataClass" data-source="MenuSet" data-scope="local" data-lib="WAF" data-id="{id}menuSet" data-dataType="string" data-autoLoad="true" content="menuSet"/>
+    <meta name="WAF.config.datasources" data-type="dataSource" data-source-type="dataClass" data-source="{id}menuSet.menus" data-scope="local" data-lib="WAF" data-id="{id}menus" data-dataType="string" data-autoLoad="true" content="menus"/>
+    <meta name="WAF.config.datasources" data-type="dataSource" data-source-type="dataClass" data-source="Menu" data-scope="local" data-lib="WAF" data-id="{id}menu" data-dataType="string" data-autoLoad="true" content="menu"/>
+    <meta name="WAF.config.datasources" data-type="dataSource" data-source-type="dataClass" data-source="{id}menu.menuItems" data-scope="local" data-lib="WAF" data-id="{id}menuItems" data-dataType="string" data-autoLoad="true" content="menuItems"/>
+    <meta name="WAF.config.datasources" data-type="dataSource" data-source-type="dataClass" data-source="{id}menuItems.menu" data-scope="local" data-lib="WAF" data-id="{id}menu0" data-dataType="string" data-autoLoad="true" content="menu0"/>
+    <meta name="WAF.config.datasources" data-type="dataSource" data-source-type="dataClass" data-source="{id}menuItems.menuItemOptions" data-scope="local" data-lib="WAF" data-id="{id}menuItemOptions" data-dataType="string" data-autoLoad="true" content="menuItemOptions"/>
+    <meta name="WAF.config.datasources" data-type="dataSource" data-source-type="dataClass" data-source="Order" data-scope="local" data-lib="WAF" data-id="{id}order" data-dataType="string" data-autoLoad="true" content="order"/>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+			<div id="{id}tabView1" data-type="tabView" data-padding="5" data-menu-position="top left" data-linked-tag="{id}menuBar1,{id}container1,{id}container2" data-lib="WAF" data-constraint-top="true" data-constraint-right="true" data-constraint-left="true" class="waf-widget waf-tabView default inherited    waf-tabView-level-0 waf-level-0 ">
+	 	<ul id="{id}menuBar1" data-type="menuBar" data-tab-margin="5" data-subMenuShow="hover" data-linked-tag="{id}tabView1" data-lib="WAF" data-level="0" data-display="horizontal" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" class="waf-widget waf-menuBar default inherited  waf-tabView-menuBar waf-tabView-menuBar-top-left ">
+	 	 	<li id="{id}menuItem1" data-type="menuItem" data-linked-tag="{id}richText1,{id}container1" data-lib="WAF" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" class="waf-widget waf-menuItem default inherited   waf-menuItem-level-0 waf-level-0">
+	 	 	 	<div id="{id}richText1" data-type="richText" data-target="_blank" data-plainText="true" data-overflow="Hidden" data-linked-tag="{id}menuItem1" data-lib="WAF" data-label-position="left" data-label="" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" data-autoWidth="false" class="waf-widget waf-richText default inherited   waf-richText-level-0 waf-level-0">Orders</div>
+ 	 	 	</li>
+ 	 		<li id="{id}menuItem2" data-type="menuItem" data-linked-tag="{id}richText2,{id}container2" data-lib="WAF" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" class="waf-widget waf-menuItem default inherited   waf-menuItem-level-0 waf-level-0">
+	 	 	 	<div id="{id}richText2" data-type="richText" data-target="_blank" data-plainText="true" data-overflow="Hidden" data-linked-tag="{id}menuItem2" data-lib="WAF" data-label-position="left" data-label="" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" data-autoWidth="false" class="waf-widget waf-richText default inherited   waf-richText-level-0 waf-level-0">Menus</div>
+ 	 	 	</li>
+ 	 		</ul>
+ 		<div id="{id}container1" data-type="container" data-linked-tag="{id}menuItem1" data-lib="WAF" data-label-position="top" data-label="" data-constraint-top="true" data-constraint-right="true" data-constraint-left="true" data-constraint-bottom="true" class="waf-widget waf-container default inherited  waf-container-level-0 waf-level-0 waf-tabView-container-level-0 ">
+	 	 			<div id="{id}richText3" data-type="richText" data-target="_blank" data-plainText="true" data-overflow="Hidden" data-lib="WAF" data-label-position="left" data-label="" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" data-autoWidth="false" class="waf-widget waf-richText default inherited  ">List of Current Orders</div>
+ 	 			<div id="{id}dataGrid1" data-type="dataGrid" data-lib="WAF" data-binding="{id}order" class="waf-widget waf-dataGrid default inherited  " data-label-position="top" data-selection-mode="single" data-display-error="true" data-footer-text="item(s)" data-column="[{'sourceAttID':'startDate','colID':'startDate','width':'123','title':'startDate'},{'sourceAttID':'endDate','colID':'endDate','width':'100','title':'endDate'},{'sourceAttID':'Description2','colID':'Description2','width':'428','title':'Description2'}]" data-constraint-left="true" data-label="" data-constraint-top="true" data-constraint-bottom="false" data-constraint-right="false"></div>
+ 	 	</div>
+ 		<div id="{id}container2" data-type="container" data-linked-tag="{id}menuItem2" data-lib="WAF" data-label-position="top" data-label="" data-constraint-top="true" data-constraint-right="true" data-constraint-left="true" data-constraint-bottom="true" class="waf-widget waf-container default inherited  waf-container-level-0 waf-level-0 waf-tabView-container-level-0 ">
+	 	 		<div id="{id}dataGrid3" data-type="dataGrid" data-selection-mode="single" data-lib="WAF" data-label-position="top" data-label="Menus" data-footer-text="item(s)" data-display-error="true" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" data-column="[{'sourceAttID':'name','colID':'name','width':'199','title':'name'},{'sourceAttID':'menuDate','colID':'menuDate','width':'100','title':'menuDate'}]" data-binding="{id}menu" class="waf-widget waf-dataGrid default inherited           waf-dataGrid-level-0 waf-level-0"></div>
+ 	 		<div id="{id}aMenuSet" data-type="combobox" data-limit="20" data-lib="WAF" data-label-position="left" data-label="Menu Set" data-editable="true" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" data-autoDispatch="true" class="waf-widget waf-combobox default inherited     waf-combobox-level-0 waf-level-0"><select></select></div>
+ 	 		<label id="{id}label3" for="{id}aMenuSet" data-valign="middle" data-type="label" data-margin="5" data-lib="WAF" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" class="waf-widget waf-label default inherited  waf-label-combobox waf-label-level-0 waf-level-0 ">Menu Set</label>
+ 	 		<label id="{id}label4" for="{id}dataGrid3" data-valign="middle" data-type="label" data-margin="5" data-lib="WAF" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" class="waf-widget waf-label default inherited  waf-label-dataGrid waf-label-level-0 waf-level-0 ">Menus</label>
+ 	 	</div>
+ 	
+ 	
+ 		</div>
+	
+	</section>

@@ -1,0 +1,1 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><breakpoints><breakpoint path="../ProjectManager/WebFolder/index.waPage/scripts/index.js" line="20" content="  var vcurrentUserID = WAF.directory.currentUser().ID"/></breakpoints>
