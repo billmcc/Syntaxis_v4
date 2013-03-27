@@ -1,1 +1,0 @@
-﻿var thePerson = new ds.Person({firstName: "Test1", lastName = "Test1"});thePerson.save();
